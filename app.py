@@ -70,7 +70,7 @@ def fetch_poster(movie_id):
 
     return 'http://image.tmdb.org/t/p/w500/'+ data.iloc[index]['poster_path']
  
-selected_movie=st.selectbox('Enter Your Fav Movie',movies['title'].values,placeholder="Choose from the list")
+selected_movie=st.selectbox('Enter Your Favourite Movie',movies['title'].values,placeholder="Choose from the list")
 
 if st.button("Recommend"):
     
