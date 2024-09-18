@@ -3,22 +3,23 @@ import pickle as pk
 import pandas as pd
 import requests as rq
 
-#st.title("The Movie Recommender")
+
 
 st.markdown(
     """
     <style>
     .custom-title {
-        font-size: 40px;
-        color: #8f88b5;
-        background-color:#03152d;
+        font-size: 50px;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.9);
         text-align: center;
-        padding: 3px; 
-        border-radius: 35px;
-        font-family: "Times New Roman";
+        padding: 0; 
+        margin 0;
+        border-radius: 50px;
+        font-family: "Garamond";
     }
     </style>
-    <h1 class="custom-title">Movie Recommendation System</h1>
+    <h1 class="custom-title">The FlickFinder A.I</h1>
     <br>
     <br>
     <br>
